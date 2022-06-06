@@ -8,7 +8,7 @@ background-color: #f7f6fa;
 #login{
 height: 65%;
 width: 20%;
-background-color: rgba(16, 140, 172, 0.13);
+background-color: #ccf5c9;
 position: absolute;
 transform: translate(-50%,-50%);
 top: 50%;
@@ -41,7 +41,7 @@ input{
 display: block;
 height: 50px;
 width: 100%;
-background-color: rgba(10, 109, 148, 0.07);
+background-color: rgba(250, 250, 250, 0.699);
 border-radius: 3px;
 padding: 0 10px;
 margin-top: 8px;
@@ -62,11 +62,24 @@ font-weight: 600;
 border-radius: 5px;
 cursor: pointer;
 }
+/* .btn{
+  margin-left: 50%;
+  margin-top: 40%;
+  background-color: #ffffff;
+  color: #080710;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9000;
+  position: absolute;
+  } */
+  
 
 #resgistro{
     height: 80%;
     width: 50%;
-    background-color: rgba(16, 140, 172, 0.13);
+    background-color: #ccf5c9;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -85,7 +98,7 @@ cursor: pointer;
 #familia{
     height: 40%;
     width: 30%;
-    background-color: rgba(16, 140, 172, 0.13);
+    background-color: #ccf5c9;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -116,7 +129,7 @@ cursor: pointer;
         }
         
         .select-selected {
-          background-color: rgb(138, 173, 209);
+          background-color: #ffffff;
           width: 220%;
         }
 
@@ -138,7 +151,7 @@ cursor: pointer;
         }
         
         .select-items div,.select-selected {
-          color: #ffffff;
+          color: #080710;
           padding: 8px 16px;
           border: 1px solid transparent;
           border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
@@ -149,7 +162,7 @@ cursor: pointer;
         .select-items {
             width: 237%;
           position: absolute;
-          background-color: rgb(138, 173, 209);
+          background-color: #ffffff;
           top: 100%;
           left: 0;
           right: 0;
